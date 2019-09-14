@@ -71,12 +71,44 @@ p {
     margin: 0 auto;
 }
 
+.main-header-section {
+    margin-top: 30px;
+}
+
+.main-navbar-section {
+    display: flex;
+    align-items: baseline;
+}
+
+.header-logo-img {
+    margin-right: 50px;
+}
+
+.main-nav {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-nav a:hover {
+    color: darkgrey;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.jumbo-main-image {
+    margin: 40px 0 20px 0;
 }
 
 .top-content .text-container {
@@ -110,6 +142,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .teal {
+    background: teal;
+}
+
+.middle-content .boxes .gold {
+    background: gold;
+}
+
+.middle-content .boxes .cadetblue {
+    background: cadetblue;
+}
+
+.middle-content .boxes .coral {
+    background: coral;
+}
+
+.middle-content .boxes .crimson {
+    background: crimson;
+}
+
+.middle-content .boxes .forestgreen {
+    background: forestgreen;
+}
+
+.middle-content .boxes .darkorchid {
+    background: darkorchid;
+}
+
+.middle-content .boxes .hotpink {
+    background: hotpink;
+}
+
+.middle-content .boxes .indigo {
+    background: indigo;
+}
+
+.middle-content .boxes .dodgerblue {
+    background: dodgerblue;
 }
 
 .bottom-content {
