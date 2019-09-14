@@ -226,6 +226,11 @@ p {
     margin-bottom: 10px;
 }
 
+@keyframes button-hover {
+    from {color: black; background: white;}
+    to { color: white; background: darkgrey;}
+}
+
 .learn-more-button {
     border: 2px solid black;
 	background: white;
@@ -233,6 +238,12 @@ p {
     border-radius:7px;
     margin: 20px 0;
     width: 125px;
+}
+
+.learn-more-button:hover {
+    animation-name: button-hover;
+    animation-duration: .5s;
+    animation-fill-mode: both;
 }
 
 .about-content-bottom {
