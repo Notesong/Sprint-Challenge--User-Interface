@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-    Semantic HTML means giving our page content meaning through semantic tags, like <nav> and <header>. With <nav>, for instance, you would place any navigation bars inside the <nav> tags. Accessibility browsers and devices, search engines, and the like would then be able to easily tell that what is inside the <nav> tags is navigation related.  The content can then be easily accessed or avoided/not displayed, which is the same for any other semantic HTML.  As a side note, you wouldn't normally put <nav> around just any link though, but rather around a group of links.
+    Semantic HTML means giving our page content meaning through semantic tags, like nav tags and header tags. With nav tags, for instance, you would place any navigation bars inside the nav tags. Accessibility browsers and devices, search engines, and the like would then be able to easily tell that what is inside the nav tags is navigation related.  The content can then be easily accessed or avoided/not displayed, which is the same for any other semantic HTML.  As a side note, you wouldn't normally put a nav tag around just any link though, but rather around a group of links.
 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
