@@ -198,6 +198,50 @@ p {
     padding-right: 0;
 }
 
+
+/* about page */
+
+.about-top-content {
+    padding: 0 15px 20px 15px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+
+.about-box-section {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+
+}
+
+.about-boxes {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    display: flex;
+	flex-direction: column;
+}
+
+.about-boxes img {
+    margin-bottom: 10px;
+}
+
+.learn-more-button {
+    border: 2px solid black;
+	background: white;
+    padding: 7px 25px;
+    border-radius:7px;
+    margin: 20px 0;
+    width: 125px;
+}
+
+.about-content-bottom {
+    margin: 35px 0;
+    padding: 0 15px;
+}
+
+
+
 footer {
     width: 100%;
     background: black;
