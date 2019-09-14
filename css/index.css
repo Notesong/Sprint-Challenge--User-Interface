@@ -71,6 +71,9 @@ p {
     margin: 0 auto;
 }
 
+
+/* main header content */
+
 .main-header-section {
     margin-top: 30px;
 }
@@ -98,6 +101,9 @@ p {
 .main-nav a:hover {
     color: darkgrey;
 }
+
+
+/* index page content */
 
 .top-content {
     display: flex;
@@ -199,7 +205,7 @@ p {
 }
 
 
-/* about page */
+/* about page content */
 
 .about-top-content {
     padding: 0 15px 20px 15px;
@@ -231,7 +237,7 @@ p {
     to { color: white; background: darkgrey;}
 }
 
-.learn-more-button {
+.learn-more-button, .form-submit-button {
     border: 2px solid black;
 	background: white;
     padding: 7px 25px;
@@ -240,7 +246,7 @@ p {
     width: 125px;
 }
 
-.learn-more-button:hover {
+.learn-more-button:hover, .form-submit-button:hover {
     animation-name: button-hover;
     animation-duration: .5s;
     animation-fill-mode: both;
@@ -252,6 +258,39 @@ p {
 }
 
 
+/* contact page content */
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 30px 0;
+}
+
+.contact-title {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-flow: column;
+    width: 75%;
+}
+
+.contact-form label {
+    margin: 15px 0 5px 0;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.contact-form textarea {
+    height: 200px;
+}
+
+/* footer content */
 
 footer {
     width: 100%;
