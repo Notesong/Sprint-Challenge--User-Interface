@@ -34,13 +34,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML means giving our page content meaning through semantic tags, like nav tags and header tags. With nav tags, for instance, you would place any navigation bars inside the nav tags. Accessibility browsers and devices, search engines, and the like would then be able to easily tell that what is inside the nav tags is navigation related.  The content can then be easily accessed or avoided/not displayed, which is the same for any other semantic HTML.  As a side note, you wouldn't normally put a nav tag around just any link though, but rather around a group of links.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    1. The Inline property value displays the item as an inline element and will only take up as much area as it needs to be displayed.  The block property value displays the item as a block element, starting a new line and taking up the whole width of the parent element.
+    2. Inline items cannot change their height or width.  Block properties can change both properties.
+
 
 3. What are the 4 areas of the box model?
 
+    1.	Content
+    2.	Padding
+    3.	Border
+    4.	Margin
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    The align-items property works on the cross-axis.
+
+
 5. Explain why git is valuable to a team of developers.
+
+    Git is valuable to a team of developers because Git excels at collaboration.  A group of people can work together on a set of files and not necessarily be in the same room or even the same country.  Git also allows for forking projects so that the base project is safe from changes and another person can use the project for themselves.  Git also allows for commits which are basically snapshots of the files at a specific point in time.  If there ever ends up being a problem with the project or for any other reason, the developers can go back and view all the commits and revert to them if needed.
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
